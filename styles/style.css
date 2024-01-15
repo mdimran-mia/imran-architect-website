@@ -63,6 +63,7 @@ nav li a {
     width: 70%;
     margin: 0 15%;
 
+
 }
 
 .header>.title .heading {
@@ -72,46 +73,137 @@ nav li a {
     font-size: 2.5em;
     font-weight: 700;
 }
-.header>.title .description{
-    color:#727272;
+
+.header>.title .description {
+    color: #727272;
     text-align: center;
     font-family: Work Sans;
     font-size: 1em;
     font-weight: 400;
     line-height: 1.6;
     margin-bottom: 2em;
+
 }
-header .banner{
+
+header .banner {
     width: 80%;
     margin: 0 10% 2em 10%;
 }
-header .banner img{
+
+header .banner img {
     width: 100%;
     align-items: center;
     margin-bottom: 2em;
 }
 
 
-main{
+main {
     width: 80%;
     margin: 0 10%;
 }
 
 
-main .future{
+main .future {
     display: flex;
     justify-content: center;
-    flex: 1;
     align-items: center;
-    gap: 0.5em;
+    gap: 1em;
     margin: 5%;
 }
 
-.future .team{
+.future .team {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
     gap: 0.4em;
 }
-.future .team img{
-    flex-wrap: wrap;
+
+.future .team>img {
+    width: 100%;
+    height: auto;
 }
+
+.future>.content {
+    width: 100%;
+    height: auto;
+    margin-left: 5em;
+}
+
+.experience {
+    display: flex;
+    position: relative;
+
+}
+.orange-line{
+    position: absolute;
+    height: 5.8em;
+    width: .3em;
+    background-color: #FF900E;
+    top: 3.3em;
+}
+
+.experience .container {
+    width: 65%;
+    height: auto;
+    margin-right: 8em;
+}
+
+.experience .container .features .title {
+    color: #131313;
+    font-family: Work Sans;
+    font-size: 3em;
+    font-weight: 700;
+    margin-left: 1em;
+
+}
+
+.experience .container .features .description {
+    color: #727272;
+    font-family: Work Sans;
+    font-size: .9em;
+    font-weight: 400;
+    line-height: 1.5em
+}
+
+.experience .container .experience-explore {
+    border-radius: .5em;
+    background: #FFF;
+    box-shadow: 0px 4px 30px 0px rgba(0, 0, 0, 0.06);
+}
+
+.experience .container .experience-explore h4 {
+    color: #131313;
+    font-family: Work Sans;
+    font-size: 1.2em;
+    font-weight: 600;
+    margin-bottom: 0;
+}
+
+.experience .container .experience-explore p {
+    color: #727272;
+    font-family: Work Sans;
+    font-size: 0.9em;
+    font-weight: 400;
+    line-height: 1.5em;
+    margin-top: 0;
+}
+
+.experience .profile-photo img {
+    width: 100%;
+    height: auto;
+}
+
+.experience .experience-10y {
+    position: absolute;
+    bottom: 0.2em;
+    left: 50%;
+    background-color: #FF900E;
+    text-align: center;
+    font-size: 3em;
+    border: 0;
+    border-radius: .2em;
+}
+
+.experience .experience-10y .span {
+    font-size: 1em;
+}
+
