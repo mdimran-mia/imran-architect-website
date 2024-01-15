@@ -131,6 +131,7 @@ main .future {
 .experience {
     display: flex;
     position: relative;
+    margin-bottom: 4em;
 
 }
 .orange-line{
@@ -194,16 +195,75 @@ main .future {
 
 .experience .experience-10y {
     position: absolute;
-    bottom: 0.2em;
+    bottom: 0.3em;
     left: 50%;
     background-color: #FF900E;
+    color: white;
     text-align: center;
     font-size: 3em;
     border: 0;
     border-radius: .2em;
 }
 
-.experience .experience-10y .span {
-    font-size: 1em;
+.experience .experience-10y >small {
+    font-size: .5em;
+}
+.facts-box{
+    margin-bottom: 4em;
+}
+.facts-box .title-sec{
+    width: 50%;
+    justify-content: left;
+    margin-bottom: 5em;
 }
 
+.facts-container{
+    display: flex;
+    justify-content: space-evenly;
+}
+.facts-container .facts{
+    padding: 1.3em;
+    width: 9em;
+    text-align: center;
+    border: 1px solid #FF900E;
+    border-radius: .2em;
+}
+
+.our-Sponspors{
+text-align: center;
+margin-bottom: 5em;
+}
+.our-Sponspors .title-sec{
+    text-align: center;
+    margin: 0 auto;
+    width: 45%;
+}
+.our-Sponspors .title-sec .title{
+    margin-bottom: 1em 0 ;
+}
+.our-Sponspors .title-sec .description{
+    margin-bottom: 3.5em;
+}
+
+.our-Sponspors .sp-img{
+    display: flex;
+    justify-content: space-evenly;
+}
+.sp-img img{
+    width:10%;
+    height: auto;
+    margin-right: 1em;
+}
+footer{
+    margin-bottom: 8em;
+}
+footer .content{
+    width: 80%;
+    margin: 0 auto;
+    text-align: center;
+    background-color: #FFF4E7;
+}
+footer p{
+    margin-bottom: 2em;
+    padding: 2em 0;
+}
